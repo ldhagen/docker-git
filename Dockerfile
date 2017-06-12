@@ -7,7 +7,7 @@ RUN \
 RUN \
    dnf -y install dh-autoreconf curl-devel expat-devel gettext-devel \
   openssl-devel perl-devel zlib-devel && \
-   dnf -y install asciidoc xmlto docbook2X && \
+   dnf -y install asciidoc xmlto docbook2X man && \
    ln -s /usr/bin/db2x_docbook2texi /usr/bin/docbook2x-texi
 
 RUN \
